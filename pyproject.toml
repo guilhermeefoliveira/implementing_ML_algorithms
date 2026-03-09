@@ -1,9 +1,11 @@
 [project]
-name = "projeto-2"
+name = "projeto-3"
 version = "0.1.0"
-description = "Add your description here"
+description = "Required dependencies for ML algorithms implementation"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
-    "numpy>=2.2.6",
+    "numpy>=2.4.2"
+    "pandas>=3.0.1",
+    "scikit-learn>=1.8.0",
 ]
