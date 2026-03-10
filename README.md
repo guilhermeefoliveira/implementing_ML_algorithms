@@ -49,12 +49,12 @@ Some projects may also use small portions of other libraries for comparison or v
 
 Each notebook is organized as a self-contained study project. In general, the projects include:
 
-- a short introduction to the problem
-- dataset loading and inspection
-- implementation of the algorithm from scratch
-- intermediate steps and explanations
-- tests, results, or comparisons
-- conclusions about the behavior of the method
+- A short introduction to the problem
+- Dataset loading and inspection
+- Implementation of the algorithm from scratch
+- Intermediate steps and explanations
+- Tests, results, or comparisons
+- Conclusions about the behavior of the method
 
 ## Current Projects
 
@@ -70,10 +70,10 @@ This repository uses `uv` for environment and dependency management. The configu
 
 ### 1. Clone the repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/your-username/implementing_ml_algorithms.git
 cd implementing_ml_algorithms
-\`\`\`
+```
 
 ### 2. Install uv
 
@@ -83,9 +83,9 @@ If `uv` is not installed on your machine, install it first. You can install it u
 
 With the repository files already in place, run:
 
-\`\`\`bash
+```bash
 uv sync
-\`\`\`
+```
 
 This will create the virtual environment and install the dependencies defined in the project configuration.
 
@@ -93,25 +93,25 @@ This will create the virtual environment and install the dependencies defined in
 
 On Linux or macOS:
 
-\`\`\`bash
+```bash
 source .venv/bin/activate
-\`\`\`
+```
 
 On Windows PowerShell:
 
-\`\`\`powershell
+```powershell
 .venv\Scripts\Activate.ps1
-\`\`\`
+```
 
 On Windows Command Prompt:
 
-\`\`\`cmd
+```cmd
 .venv\Scripts\activate.bat
-\`\`\`
+```
 
 ### 5. Launch Jupyter
 
-After the environment is ready, start Jupyter, VSCode our something else that you use.
+After the environment is ready, start Jupyter, VSCode, or something else that you use.
 
 ## Environment Management
 
@@ -119,9 +119,9 @@ This repository uses `uv` as the standard tool for managing the Python environme
 
 If dependencies are updated in the project configuration, run:
 
-\`\`\`bash
+```bash
 uv sync
-\`\`\`
+```
 
 again to bring the environment in line with the current repository state.
 
