@@ -1,4 +1,4 @@
-# Implementing my ownMachine Learning Algorithms
+# Implementing my own Machine Learning Algorithms
 
 ## Overview
 
